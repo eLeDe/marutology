@@ -4,7 +4,7 @@ marutology
 Maruto theme for Terminology
 -----------------------------
 
-This project is cloned from the pikanology project (https://github.com/jeanguyomarch/pikalogy)
+This project is cloned from the pikalogy project (https://github.com/jeanguyomarch/pikalogy)
 
 Usage
 =====
@@ -17,7 +17,7 @@ Usage
   ```
 * In the directory of the marutology theme:
   * `make DEFINITIONS="your definitions"` to compile the Edje file with options among:
-    * `-DWITH_SOUND` to unable sound effects (DISABLED BY DEFAULT)
+    * `-DWITH_SOUND` to enable sound effects (DISABLED BY DEFAULT)
   * `make install` (as root if necessary) to install the files.
   * You can override the `PREFIX` variable to change the destination of the installed files.
   * `make uninstall` (as root if necessary) to remove installed files.
